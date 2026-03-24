@@ -175,6 +175,7 @@
                 <xs:element name="centro_datos" type="TipoCentroDatos" maxOccurs="unbounded" />
             </xs:sequence>
             <xs:attribute name="empresa" type="xs:string" use="required" />
+          <xs:unique name="UnicoID">
         </xs:complexType>
     </xs:element>
 
